@@ -1,0 +1,15 @@
+# version: '3.8'
+
+# services:
+#   web:
+#     build: .
+#     ports:
+#       - "8000:8000"
+#     environment:
+#       - OPENAI_API_KEY=${OPENAI_API_KEY}
+#       - GROQ_API_KEY=${GROQ_API_KEY}
+#       - LANGCHAIN_TRACING_V2=${LANGCHAIN_TRACING_V2}
+#       - LANGCHAIN_ENDPOINT=${LANGCHAIN_ENDPOINT}
+#       - LANGCHAIN_PROJECT=${LANGCHAIN_PROJECT}
+#     volumes:
+#       - .:/app

@@ -1,0 +1,54 @@
+aiagentmicroservice/
+├── src/
+│   ├── api/
+│   │   ├── init.py
+│   │   ├── routes/
+│   │   │   ├── init.py
+│   │   │   ├── agentroutes.py
+│   │   │   ├── fileroutes.py
+│   │   │   └── vectorroutes.py
+│   │   └── dependencies.py
+│   ├── chain/
+│   │   ├── init.py
+│   │   ├── agentgraph/
+│   │   ├── agents/
+│   │   ├── config/
+│   │   ├── models/
+│   │   ├── prompts/
+│   │   ├── schemadiagram/
+│   │   ├── states/
+│   │   ├── tools/
+│   │   └── utils/
+│   ├── database/
+│   │   ├── init.py
+│   │   ├── models.py
+│   │   ├── crud.py
+│   │   └── dbconnection.py
+│   ├── storage/
+│   │   ├── __init.py
+│   │   ├── s3_client.py
+│   │   └── file_operations.py
+│   ├── vector_db/
+│   │   ├── __init.py
+│   │   ├── vector_client.py
+│   │   └── vector_operations.py
+│   └── config/
+│       ├── __init.py
+│       └── settings.py
+├── tests/
+│   ├── __init.py
+│   ├── conftest.py
+│   ├── test_api/
+│   ├── test_agent/
+│   ├── test_storage/
+│   └── test_vector_db/
+├── alembic/
+├── .env
+├── .gitignore
+├── alembic.ini
+├── docker-compose.yml
+├── Dockerfile
+├── main.py
+├── pyproject.toml
+├── README.md
+└── requirements.txt 
